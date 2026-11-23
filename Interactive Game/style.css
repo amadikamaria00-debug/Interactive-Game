@@ -1,0 +1,54 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Style the game box */
+.game {
+    background-color: white;
+    padding: 30px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+/* Style the title */
+h1 {
+    color: darkblue;
+}
+
+/* Style the questions */
+h2 {
+    color: black;
+    font-size: 22px;
+}
+
+/* Style the buttons */
+button {
+    background-color: royalblue;
+    color: white;
+    padding: 12px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Change button color when hovering */
+button:hover {
+    background-color: darkblue;
+}
+
+/* Style the message */
+#message {
+    font-weight: bold;
+    color: green;
+}
+
+/* Style the score */
+#score {
+    font-size: 18px;
+    color: darkblue;
+}
